@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Local API credentials
+/secrets.properties
+*.jks
+*.keystore

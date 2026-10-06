@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <fragment
+        android:id="@+id/resultMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView android:id="@+id/resultTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="時間：" />
+
+    <TextView android:id="@+id/resultDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="距離：" />
+
+    <TextView android:id="@+id/resultSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="速度：" />
+
+    <TextView android:id="@+id/resultCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消費カロリー：" />
+
+    <Button android:id="@+id/btnReturnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ホームに戻る"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
